@@ -23,6 +23,8 @@
     [button addTarget:self action:@selector(buttonPress) forControlEvents:UIControlEventTouchDown];
     [self.view addSubview:button];
     NSLog(@"我操了个蛋");
+    
+    NSLog(@"@@@@");
 }
 - (void)buttonPress
 {
