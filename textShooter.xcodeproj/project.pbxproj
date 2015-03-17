@@ -7,15 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2B1D47BB1A846BA700CEEDEF /* pew-pew-lei.caf in Resources */ = {isa = PBXBuildFile; fileRef = 2B1D47BA1A846BA700CEEDEF /* pew-pew-lei.caf */; };
+		2B1D47BD1A846BB800CEEDEF /* background-music-aac.caf in Resources */ = {isa = PBXBuildFile; fileRef = 2B1D47BC1A846BB800CEEDEF /* background-music-aac.caf */; };
+		2B1D47C01A846BC800CEEDEF /* Other.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B1D47BE1A846BC800CEEDEF /* Other.png */; };
+		2B1D47C11A846BC800CEEDEF /* Spaceship.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B1D47BF1A846BC800CEEDEF /* Spaceship.png */; };
 		2B65C8CE1A830CF800386833 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B65C8CD1A830CF800386833 /* main.m */; };
 		2B65C8D11A830CF800386833 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B65C8D01A830CF800386833 /* AppDelegate.m */; };
 		2B65C8D41A830CF800386833 /* GameScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B65C8D31A830CF800386833 /* GameScene.m */; };
 		2B65C8D61A830CF800386833 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 2B65C8D51A830CF800386833 /* GameScene.sks */; };
 		2B65C8D91A830CF800386833 /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B65C8D81A830CF800386833 /* GameViewController.m */; };
-		2B65C8DC1A830CF800386833 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B65C8DA1A830CF800386833 /* Main.storyboard */; };
 		2B65C8DE1A830CF800386833 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B65C8DD1A830CF800386833 /* Images.xcassets */; };
-		2B65C8E11A830CF800386833 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B65C8DF1A830CF800386833 /* LaunchScreen.xib */; };
 		2B65C8ED1A830CF800386833 /* textShooterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B65C8EC1A830CF800386833 /* textShooterTests.m */; };
+		2B65C8F71A83329100386833 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B65C8F61A83329100386833 /* Default-568h@2x.png */; };
+		2B65C8FA1A83615500386833 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B65C8F91A83615500386833 /* ViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +33,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2B1D47BA1A846BA700CEEDEF /* pew-pew-lei.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "pew-pew-lei.caf"; sourceTree = "<group>"; };
+		2B1D47BC1A846BB800CEEDEF /* background-music-aac.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "background-music-aac.caf"; sourceTree = "<group>"; };
+		2B1D47BE1A846BC800CEEDEF /* Other.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Other.png; sourceTree = "<group>"; };
+		2B1D47BF1A846BC800CEEDEF /* Spaceship.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Spaceship.png; sourceTree = "<group>"; };
 		2B65C8C81A830CF800386833 /* textShooter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = textShooter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B65C8CC1A830CF800386833 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2B65C8CD1A830CF800386833 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -39,12 +47,13 @@
 		2B65C8D51A830CF800386833 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
 		2B65C8D71A830CF800386833 /* GameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
 		2B65C8D81A830CF800386833 /* GameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
-		2B65C8DB1A830CF800386833 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2B65C8DD1A830CF800386833 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		2B65C8E01A830CF800386833 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		2B65C8E61A830CF800386833 /* textShooterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = textShooterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B65C8EB1A830CF800386833 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2B65C8EC1A830CF800386833 /* textShooterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = textShooterTests.m; sourceTree = "<group>"; };
+		2B65C8F61A83329100386833 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		2B65C8F81A83615500386833 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2B65C8F91A83615500386833 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,12 +99,16 @@
 				2B65C8D01A830CF800386833 /* AppDelegate.m */,
 				2B65C8D21A830CF800386833 /* GameScene.h */,
 				2B65C8D31A830CF800386833 /* GameScene.m */,
+				2B1D47BA1A846BA700CEEDEF /* pew-pew-lei.caf */,
+				2B1D47BC1A846BB800CEEDEF /* background-music-aac.caf */,
+				2B1D47BE1A846BC800CEEDEF /* Other.png */,
+				2B1D47BF1A846BC800CEEDEF /* Spaceship.png */,
 				2B65C8D51A830CF800386833 /* GameScene.sks */,
+				2B65C8F81A83615500386833 /* ViewController.h */,
+				2B65C8F91A83615500386833 /* ViewController.m */,
 				2B65C8D71A830CF800386833 /* GameViewController.h */,
 				2B65C8D81A830CF800386833 /* GameViewController.m */,
-				2B65C8DA1A830CF800386833 /* Main.storyboard */,
 				2B65C8DD1A830CF800386833 /* Images.xcassets */,
-				2B65C8DF1A830CF800386833 /* LaunchScreen.xib */,
 				2B65C8CB1A830CF800386833 /* Supporting Files */,
 			);
 			path = textShooter;
@@ -104,6 +117,7 @@
 		2B65C8CB1A830CF800386833 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				2B65C8F61A83329100386833 /* Default-568h@2x.png */,
 				2B65C8CC1A830CF800386833 /* Info.plist */,
 				2B65C8CD1A830CF800386833 /* main.m */,
 			);
@@ -207,10 +221,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2B65C8E11A830CF800386833 /* LaunchScreen.xib in Resources */,
+				2B1D47C11A846BC800CEEDEF /* Spaceship.png in Resources */,
+				2B1D47BD1A846BB800CEEDEF /* background-music-aac.caf in Resources */,
 				2B65C8DE1A830CF800386833 /* Images.xcassets in Resources */,
+				2B1D47C01A846BC800CEEDEF /* Other.png in Resources */,
 				2B65C8D61A830CF800386833 /* GameScene.sks in Resources */,
-				2B65C8DC1A830CF800386833 /* Main.storyboard in Resources */,
+				2B65C8F71A83329100386833 /* Default-568h@2x.png in Resources */,
+				2B1D47BB1A846BA700CEEDEF /* pew-pew-lei.caf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -232,6 +249,7 @@
 				2B65C8D11A830CF800386833 /* AppDelegate.m in Sources */,
 				2B65C8D41A830CF800386833 /* GameScene.m in Sources */,
 				2B65C8CE1A830CF800386833 /* main.m in Sources */,
+				2B65C8FA1A83615500386833 /* ViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -252,25 +270,6 @@
 			targetProxy = 2B65C8E71A830CF800386833 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		2B65C8DA1A830CF800386833 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				2B65C8DB1A830CF800386833 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		2B65C8DF1A830CF800386833 /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				2B65C8E01A830CF800386833 /* Base */,
-			);
-			name = LaunchScreen.xib;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		2B65C8EE1A830CF800386833 /* Debug */ = {
@@ -354,6 +353,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = textShooter/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -364,6 +364,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = textShooter/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -422,6 +423,7 @@
 				2B65C8F21A830CF800386833 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2B65C8F31A830CF800386833 /* Build configuration list for PBXNativeTarget "textShooterTests" */ = {
 			isa = XCConfigurationList;
@@ -430,6 +432,7 @@
 				2B65C8F51A830CF800386833 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
